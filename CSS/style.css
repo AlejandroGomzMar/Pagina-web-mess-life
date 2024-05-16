@@ -262,7 +262,7 @@ select {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #08141c;
     border-radius: 4px;
     box-sizing: border-box;
 }
@@ -282,9 +282,48 @@ button[type="submit"] {
 }
 iframe {
     display: block;
-    margin-top: 20px; /* Espacio superior */
-    width: 100%; /* Ocupar todo el ancho disponible */
-    max-width: 100%; /* No superar el ancho del contenedor */
-    height: auto; /* Ajustar automáticamente la altura según el ancho */
-    border: none; /* Eliminar borde */
+    margin-top: 20px; 
+    width: 100%; 
+    max-width: 100%; 
+    height: auto; 
+    border: none; 
 }
+body {
+    background-image: url('../image/fonditomelito.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+/* Contenedor principal exclusivo */
+.container-exclusiva {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #08141c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Secciones exclusivas */
+.section-exclusiva {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-exclusiva .titulo-exclusiva {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.section-exclusiva p {
+    line-height: 1.6;
+}
+.section-exclusiva .titulo-exclusiva {
+    color: #08141c; 
+}
+
+
+
